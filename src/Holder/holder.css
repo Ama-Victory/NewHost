@@ -1,0 +1,10 @@
+ .MainBODY{
+    
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  gap: 70px;
+  background: #000;
+
+
+ }

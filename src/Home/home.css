@@ -1,0 +1,718 @@
+.HomeContainer{
+    width: 100%;
+    height: max-content;
+    background-color: whitesmoke;
+    display: flex;
+    padding-top: 10vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: rgb(79, 76, 76);
+
+}
+
+.HomeContainerInner{
+    width: 85%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.FirstContainer{
+    width: 20%;
+    height: max-content;
+    /* background-color: red; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* position: fixed; */
+     /* z-index: 9;  */
+}
+
+
+.FirstInnerContainer1{
+    width: 100%;
+    height: 500px;
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.FirstInnerContainer2{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    /* border-radius: 20px; */
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+
+.firstContainerIner1{
+    height: 100%;
+    width: 100%;
+    /* background-color: pink; */
+    /* display: flex; */
+}
+
+.allBlueTextContainer{
+    width: 100%;
+    height: 70%;
+    border-bottom: 1px solid black;
+    display: flex; 
+    gap:10px; 
+    padding-left: 20px;
+    flex-direction: column;
+
+    >p{
+        color: blue;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+}
+
+.DiscoverText{
+    width: 100%;
+    height: 30%;
+     background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+
+.ProfileContainer{
+    width: 100%;
+    height: 15%;
+    background-color: pink;
+    background-image: url(./src/assets/BabyGirl.jpg);
+    border-radius: 20px 20px 0px 0px;
+    background-size: 100%;
+}
+
+
+.ProFileContainerCircle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 6%;
+    left: 30%;
+    background-image:  url(./src/assets/Finie.jpg);
+    background-size: 100%;
+    border: 3px solid white;
+}
+
+.TextContainer{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(154, 151, 151);
+}
+
+.H3Tage{
+    width: 90%;
+    height: 30%;
+    font-size: 14px;
+    color: rgb(45, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ProfileTextContainer{
+    width: 100%;
+    height:15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 1px solid rgb(154, 151, 151);
+    padding: 10px;
+}
+
+.AmountContainer{
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 1px solid rgb(154, 151, 151);
+    padding: 10px;
+}
+
+.SavedItems-Container{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+.SecondContainer{
+    width: 60%;
+    height: max-content;
+    /* background-color: black; */
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.CenterContainer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    
+}
+
+.PremiumContainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.CenterInnerContainer{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ContainerImageS{
+    width: 100%;
+    height: 90%;
+    border: 2px solid rgb(212, 210, 210);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ContainerImageSInner{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: black;
+    background-image:  url(./src/assets/Finie.jpg);
+    background-size: 100%;
+}
+
+.PremiumButton{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(236, 167, 82);
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+}
+
+.PremiumButton:hover{
+    cursor: pointer;
+    transition: 350ms;
+    transform: scale(1.05);
+}
+
+.Ptage1{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.Ptage2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.secondPart{
+    width: 100%;
+    height: 200px;
+    background-color:white;
+    display: flex;
+    border-radius: 5px;
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.secondPartInner{
+    width: 95%;
+    height: 100%;
+    
+
+    /* background-color: blue; */
+}
+
+.ImgAndInput{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+.imgFirst{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.inputText{
+    width: 550px;
+    height: 45px;
+    outline: none; 
+     /* border: 1px solid black;  */
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.inputText:hover{
+    cursor: pointer;
+
+}
+
+.All-Icons{
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.allIconStyle{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding-left: 20px;
+}
+
+
+.line{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    align-items: center;
+    gap:10px;
+}
+
+.lineDiv{
+    width: 80%;
+    height: 50%;
+    padding: 5px;
+    padding-right: 5px;
+    
+    
+    /* flex-direction: column; */
+    /* border: 2px solid black; */
+}
+
+.TextOfLineDiv{
+    font-size: 17px;
+    gap:3px;
+    margin-bottom:5px;
+    width: 20%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.sectionThree{
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+
+}
+
+.sectionThreeInner{
+    width: 95%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionThreeContents{
+    /* background-color: teal; */
+    width: 100%;
+    height: 600px;
+}
+
+.upSection{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    */
+    /* background-color: orange; */
+    /* justify-content: space-between; */
+}
+
+
+
+.firstUpSection{
+    width: 100%;
+    gap:90px;
+    height: 20%;
+     /* background-color: aliceblue;  */
+    display: flex;
+    border-bottom: 1px solid rgb(110, 106, 106);
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.FirstUpImg{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+     /* background: #000; */
+    align-items: center;
+  
+    /* border-radius: 50%; */
+}
+
+
+
+.FirstPic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.dottedIcons{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    height: 100%;
+     /* background-color: antiquewhite;  */
+}
+
+.UpsectionTwo{
+    width: 100%;
+    height: 80%;
+    /* background-color: pink; */
+}
+
+
+
+.FirstupSection2{
+    width: 100%;
+    height: 65%;
+    /* background-color: grey; */
+}
+
+
+.NamePicDiv{
+    height: 50%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+}
+
+.PictureDiv{
+    width: 80%;
+    /* background-color: greenyellow; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+     color: rgb(96, 92, 92);
+}
+
+.Picture{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.followText{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+     color: rgb(96, 92, 92);
+}
+
+.virtualAssistantDiv{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    padding-left: 60px;
+    font-weight: 400;
+    color: rgb(96, 92, 92);
+    /* background-color: blue; */
+}
+
+
+.SixDays{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    gap:5px;
+     color: rgb(96, 92, 92);
+     padding-left: 40px;
+
+}
+
+.SecondUpSection2{
+    width: 100%;
+    height: 35%;
+    /* background-color: lawngreen; */
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+.sectionDown{
+    width: 100%;
+    height: 60%;
+    /* background-color: violet; */
+    display: flex;
+    gap:15px;
+    flex-direction: column;
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;     */
+}
+
+.CommentsSections{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.likes{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    gap:10px;
+}
+
+.firstPicPart{
+     background-image: url(./src/assets/BabyGirl.jpg); 
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+    background-color: red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+.sectionDownBox{
+    width: 60%;
+    height: 100%;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+}
+
+.secondPicPart{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+      background-image: url(./src/assets/BabyGirl.jpg);
+        background-size: cover;
+}
+
+
+.ThirdPicPart{
+    width: 100%;
+    height: 50%;
+    background-color: grey;
+    background-image: url(./src/assets/BabyGirl.jpg);
+    background-size: cover;
+}
+
+.ThirdContainer{
+    width: 20%;
+    height: max-content;
+     /* background-color: blue;  */
+    gap: 10px;
+    display: flex;
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    flex-direction: column;
+}
+
+.thirdContainer1{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    gap:25px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.addFeed-Container{
+    display: flex;
+    /* font-family: sans-serif; */
+    /* font-weight: 300; */
+    justify-content: space-between;
+}
+
+
+.allImgSection{
+    width: 100%;
+    height: 30%;
+    display: flex;
+     gap:10px;
+     /* background-color: aliceblue; */
+     display: flex;
+
+}
+
+.firstImgDiv{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* background-size: 100%; */
+    /* background-image: url(./src/assets/BabyGirl.jpg); */
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.AboutText{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    gap:5px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    flex-direction: column;
+  
+
+}
+
+.btnFollow{
+    width: 120PX;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+
+.lastPart{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: pink; */
+}
+
+.thirdContainer2{
+    width: 100%;
+    height: 330px;
+    border-radius: 20px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    /* justify-content: center; */
+}
+
+
+
+.logo2 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 90px;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.thrCon1 {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* background-color: red; */
+    width: 100%;
+    padding: 5px;
+    font-size: 13px;
+    /* margin-bottom: 0; */
+}
+
+.thrCon2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    gap: 20px;
+    text-align: center;
+    /* margin-top: 0; */
+    /* height: 80%; */
+}
+
+.trialBtn {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid blue;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.potential {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdContainer2 div {
+    /* margin-bottom: 15px; */
+}
+
+
+
